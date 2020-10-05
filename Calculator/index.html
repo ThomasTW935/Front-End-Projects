@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="design.css">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator-background">
+        <div class="calculator-display"><input type="text" placeholder="0"  readonly></div>
+        <div class="calculator-history"> History: 
+                <span></span>
+        </div>
+        <div class="calculator-buttons">
+            <button class="calculator-buttons-functions">C</button>
+            <button class="calculator-buttons-functions">+/-</button>
+            <button class="calculator-buttons-functions">%</button>
+            <button class="calculator-buttons-operations">=</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="calculator-buttons-operations">*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="calculator-buttons-operations">/</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="calculator-buttons-operations">+</button>
+            <button disabled></button>
+            <button>0</button>
+            <button id="buttonPoint">.</button>
+            <button class="calculator-buttons-operations">-</button>
+        </div>
+    </div>
+</body>
+</html>
